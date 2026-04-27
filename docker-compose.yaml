@@ -3,4 +3,4 @@ services:
     container_name: juice-shop
     image: bkimminich/juice-shop:v19.2.1
     ports:
-      - '8089:80'
+      - '8081:3000'
