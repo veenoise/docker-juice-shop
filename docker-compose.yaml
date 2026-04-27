@@ -2,5 +2,6 @@ services:
   juice-shop:
     container_name: juice-shop
     image: bkimminich/juice-shop:v19.2.1
+    restart: unless-stopped
     ports:
       - '8081:3000'
