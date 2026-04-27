@@ -1,0 +1,6 @@
+services:
+  juice-shop:
+    container_name: juice-shop
+    image: bkimminich/juice-shop:8587be2b77a5 # Latest linux/amd64
+    ports:
+      - '8081:80'
